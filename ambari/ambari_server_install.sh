@@ -29,7 +29,7 @@ AMBARI_USER=$6
 AMBARI_PASSWD=$7
 
 REPO_FILE="http://public-repo-1.hortonworks.com/ambari/centos7/2.x/updates/${AMBARI_VERSION}/ambari.repo"
-MYSQL_JAR="http://central.maven.org/maven2/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar"
+MYSQL_JAR="https://repo1.maven.org/maven2/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar"
 AMVARI_SERVER_LIB="/usr/lib/ambari-server"
 AMBARI_CONF="/etc/ambari-server/conf/ambari.properties"
 PASS_FILE="/etc/ambari-server/conf/password.dat"
